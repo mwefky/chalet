@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF546158211F3B250011C376 /* DistrictData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF546157211F3B250011C376 /* DistrictData.swift */; };
+		AFC45E0F211CC8BE00DEB592 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC45E0E211CC8BE00DEB592 /* ServerManager.swift */; };
+		AFC45E14211E161200DEB592 /* countryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC45E13211E161200DEB592 /* countryData.swift */; };
+		AFD2E3FA21236326005C4000 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2E3F921236326005C4000 /* Helpers.swift */; };
+		AFD2E3FC21236822005C4000 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2E3FB21236822005C4000 /* UserData.swift */; };
+		AFD2E3FE21236854005C4000 /* CountryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2E3FD21236854005C4000 /* CountryInfo.swift */; };
+		AFE9FDF8211B9805009015CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE9FDF7211B9805009015CE /* AppDelegate.swift */; };
+		AFE9FDFD211B9805009015CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE9FDFB211B9805009015CE /* Main.storyboard */; };
+		AFE9FDFF211B9805009015CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE9FDFE211B9805009015CE /* Assets.xcassets */; };
+		AFE9FE02211B9805009015CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE9FE00211B9805009015CE /* LaunchScreen.storyboard */; };
+		AFE9FE0B211B9A02009015CE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE9FE0A211B9A02009015CE /* MainViewController.swift */; };
+		AFE9FE0D211B9A0D009015CE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE9FE0C211B9A0D009015CE /* RegisterViewController.swift */; };
+		AFE9FE0F211B9A18009015CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE9FE0E211B9A18009015CE /* LoginViewController.swift */; };
+		AFE9FE17211BA0D3009015CE /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE9FE11211BA0CF009015CE /* Cairo-SemiBold.ttf */; };
+		AFE9FE18211BA0D3009015CE /* Cairo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE9FE12211BA0D0009015CE /* Cairo-Black.ttf */; };
+		AFE9FE19211BA0D3009015CE /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE9FE13211BA0D0009015CE /* Cairo-Bold.ttf */; };
+		AFE9FE1A211BA0D3009015CE /* Cairo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE9FE14211BA0D1009015CE /* Cairo-ExtraLight.ttf */; };
+		AFE9FE1B211BA0D3009015CE /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE9FE15211BA0D1009015CE /* Cairo-Regular.ttf */; };
+		AFE9FE1C211BA0D3009015CE /* Cairo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE9FE16211BA0D2009015CE /* Cairo-Light.ttf */; };
+		CC7EF153AFE56296F43CEE50 /* Pods_astrahat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4DBF24BF078BACE57F1E4A /* Pods_astrahat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E4DBF24BF078BACE57F1E4A /* Pods_astrahat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_astrahat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7171D0BC3391731DBA13E2F2 /* Pods-astrahat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-astrahat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-astrahat/Pods-astrahat.debug.xcconfig"; sourceTree = "<group>"; };
+		9218A58956D488DD446040E4 /* Pods-astrahat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-astrahat.release.xcconfig"; path = "Pods/Target Support Files/Pods-astrahat/Pods-astrahat.release.xcconfig"; sourceTree = "<group>"; };
+		AF546157211F3B250011C376 /* DistrictData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictData.swift; sourceTree = "<group>"; };
+		AFC45E0E211CC8BE00DEB592 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		AFC45E13211E161200DEB592 /* countryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countryData.swift; sourceTree = "<group>"; };
+		AFD2E3F921236326005C4000 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		AFD2E3FB21236822005C4000 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		AFD2E3FD21236854005C4000 /* CountryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfo.swift; sourceTree = "<group>"; };
+		AFE9FDF4211B9805009015CE /* astrahat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = astrahat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE9FDF7211B9805009015CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFE9FDFC211B9805009015CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFE9FDFE211B9805009015CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFE9FE01211B9805009015CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFE9FE03211B9805009015CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFE9FE0A211B9A02009015CE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AFE9FE0C211B9A0D009015CE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AFE9FE0E211B9A18009015CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AFE9FE11211BA0CF009015CE /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cairo-SemiBold.ttf"; path = "../../../../Downloads/app-open-source/fonts/Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		AFE9FE12211BA0D0009015CE /* Cairo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cairo-Black.ttf"; path = "../../../../Downloads/app-open-source/fonts/Cairo-Black.ttf"; sourceTree = "<group>"; };
+		AFE9FE13211BA0D0009015CE /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cairo-Bold.ttf"; path = "../../../../Downloads/app-open-source/fonts/Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		AFE9FE14211BA0D1009015CE /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cairo-ExtraLight.ttf"; path = "../../../../Downloads/app-open-source/fonts/Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		AFE9FE15211BA0D1009015CE /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cairo-Regular.ttf"; path = "../../../../Downloads/app-open-source/fonts/Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		AFE9FE16211BA0D2009015CE /* Cairo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cairo-Light.ttf"; path = "../../../../Downloads/app-open-source/fonts/Cairo-Light.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFE9FDF1211B9805009015CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7EF153AFE56296F43CEE50 /* Pods_astrahat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		081286DDA182243F1A269479 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7171D0BC3391731DBA13E2F2 /* Pods-astrahat.debug.xcconfig */,
+				9218A58956D488DD446040E4 /* Pods-astrahat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		36F86EDF424AEA523C8FB9AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E4DBF24BF078BACE57F1E4A /* Pods_astrahat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFC45E0D211CC87900DEB592 /* Manger */ = {
+			isa = PBXGroup;
+			children = (
+				AFC45E0E211CC8BE00DEB592 /* ServerManager.swift */,
+			);
+			path = Manger;
+			sourceTree = "<group>";
+		};
+		AFC45E10211E15B700DEB592 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFC45E13211E161200DEB592 /* countryData.swift */,
+				AF546157211F3B250011C376 /* DistrictData.swift */,
+				AFD2E3FB21236822005C4000 /* UserData.swift */,
+				AFD2E3FD21236854005C4000 /* CountryInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AFD2E3F8212362FD005C4000 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AFD2E3F921236326005C4000 /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AFE9FDEB211B9805009015CE = {
+			isa = PBXGroup;
+			children = (
+				AFE9FDF6211B9805009015CE /* astrahat */,
+				AFE9FDF5211B9805009015CE /* Products */,
+				081286DDA182243F1A269479 /* Pods */,
+				36F86EDF424AEA523C8FB9AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFE9FDF5211B9805009015CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFE9FDF4211B9805009015CE /* astrahat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFE9FDF6211B9805009015CE /* astrahat */ = {
+			isa = PBXGroup;
+			children = (
+				AFD2E3F8212362FD005C4000 /* Helpers */,
+				AFC45E0D211CC87900DEB592 /* Manger */,
+				AFE9FE10211BA0AE009015CE /* Resourses */,
+				AFE9FE09211B99DE009015CE /* LoginRegisterVC */,
+				AFE9FDF7211B9805009015CE /* AppDelegate.swift */,
+				AFE9FDFB211B9805009015CE /* Main.storyboard */,
+				AFE9FE00211B9805009015CE /* LaunchScreen.storyboard */,
+				AFE9FE03211B9805009015CE /* Info.plist */,
+			);
+			path = astrahat;
+			sourceTree = "<group>";
+		};
+		AFE9FE09211B99DE009015CE /* LoginRegisterVC */ = {
+			isa = PBXGroup;
+			children = (
+				AFC45E10211E15B700DEB592 /* Model */,
+				AFE9FE0A211B9A02009015CE /* MainViewController.swift */,
+				AFE9FE0C211B9A0D009015CE /* RegisterViewController.swift */,
+				AFE9FE0E211B9A18009015CE /* LoginViewController.swift */,
+			);
+			path = LoginRegisterVC;
+			sourceTree = "<group>";
+		};
+		AFE9FE10211BA0AE009015CE /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				AFE9FE12211BA0D0009015CE /* Cairo-Black.ttf */,
+				AFE9FE13211BA0D0009015CE /* Cairo-Bold.ttf */,
+				AFE9FE14211BA0D1009015CE /* Cairo-ExtraLight.ttf */,
+				AFE9FE16211BA0D2009015CE /* Cairo-Light.ttf */,
+				AFE9FE15211BA0D1009015CE /* Cairo-Regular.ttf */,
+				AFE9FE11211BA0CF009015CE /* Cairo-SemiBold.ttf */,
+				AFE9FDFE211B9805009015CE /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFE9FDF3211B9805009015CE /* astrahat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE9FE06211B9805009015CE /* Build configuration list for PBXNativeTarget "astrahat" */;
+			buildPhases = (
+				B39791B214DDF7500A069C85 /* [CP] Check Pods Manifest.lock */,
+				AFE9FDF0211B9805009015CE /* Sources */,
+				AFE9FDF1211B9805009015CE /* Frameworks */,
+				AFE9FDF2211B9805009015CE /* Resources */,
+				8281C8A7D74D6AD9159034CC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = astrahat;
+			productName = astrahat;
+			productReference = AFE9FDF4211B9805009015CE /* astrahat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFE9FDEC211B9805009015CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = on;
+				TargetAttributes = {
+					AFE9FDF3211B9805009015CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AFE9FDEF211B9805009015CE /* Build configuration list for PBXProject "astrahat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFE9FDEB211B9805009015CE;
+			productRefGroup = AFE9FDF5211B9805009015CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFE9FDF3211B9805009015CE /* astrahat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFE9FDF2211B9805009015CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE9FE17211BA0D3009015CE /* Cairo-SemiBold.ttf in Resources */,
+				AFE9FE02211B9805009015CE /* LaunchScreen.storyboard in Resources */,
+				AFE9FE1B211BA0D3009015CE /* Cairo-Regular.ttf in Resources */,
+				AFE9FE18211BA0D3009015CE /* Cairo-Black.ttf in Resources */,
+				AFE9FDFF211B9805009015CE /* Assets.xcassets in Resources */,
+				AFE9FE19211BA0D3009015CE /* Cairo-Bold.ttf in Resources */,
+				AFE9FE1A211BA0D3009015CE /* Cairo-ExtraLight.ttf in Resources */,
+				AFE9FE1C211BA0D3009015CE /* Cairo-Light.ttf in Resources */,
+				AFE9FDFD211B9805009015CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8281C8A7D74D6AD9159034CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-astrahat/Pods-astrahat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-astrahat/Pods-astrahat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B39791B214DDF7500A069C85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-astrahat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFE9FDF0211B9805009015CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC45E0F211CC8BE00DEB592 /* ServerManager.swift in Sources */,
+				AFE9FE0F211B9A18009015CE /* LoginViewController.swift in Sources */,
+				AFE9FE0D211B9A0D009015CE /* RegisterViewController.swift in Sources */,
+				AFD2E3FC21236822005C4000 /* UserData.swift in Sources */,
+				AFD2E3FA21236326005C4000 /* Helpers.swift in Sources */,
+				AFC45E14211E161200DEB592 /* countryData.swift in Sources */,
+				AF546158211F3B250011C376 /* DistrictData.swift in Sources */,
+				AFE9FDF8211B9805009015CE /* AppDelegate.swift in Sources */,
+				AFD2E3FE21236854005C4000 /* CountryInfo.swift in Sources */,
+				AFE9FE0B211B9A02009015CE /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFE9FDFB211B9805009015CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE9FDFC211B9805009015CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFE9FE00211B9805009015CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE9FE01211B9805009015CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFE9FE04211B9805009015CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFE9FE05211B9805009015CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFE9FE07211B9805009015CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7171D0BC3391731DBA13E2F2 /* Pods-astrahat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VXB55DK8RU;
+				INFOPLIST_FILE = astrahat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wefky.astrahat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFE9FE08211B9805009015CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9218A58956D488DD446040E4 /* Pods-astrahat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VXB55DK8RU;
+				INFOPLIST_FILE = astrahat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wefky.astrahat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFE9FDEF211B9805009015CE /* Build configuration list for PBXProject "astrahat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE9FE04211B9805009015CE /* Debug */,
+				AFE9FE05211B9805009015CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE9FE06211B9805009015CE /* Build configuration list for PBXNativeTarget "astrahat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE9FE07211B9805009015CE /* Debug */,
+				AFE9FE08211B9805009015CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFE9FDEC211B9805009015CE /* Project object */;
+}

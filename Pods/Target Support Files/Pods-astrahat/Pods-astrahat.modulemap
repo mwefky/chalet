@@ -1,0 +1,6 @@
+framework module Pods_astrahat {
+  umbrella header "Pods-astrahat-umbrella.h"
+
+  export *
+  module * { export * }
+}

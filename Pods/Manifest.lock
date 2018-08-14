@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.7.2)
+  - DropDown (2.3.2)
+  - ObjectMapper (3.3.0)
+  - SkyFloatingLabelTextField (3.5.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - DropDown
+  - ObjectMapper (~> 3.1)
+  - SkyFloatingLabelTextField (~> 3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DropDown
+    - ObjectMapper
+    - SkyFloatingLabelTextField
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  SkyFloatingLabelTextField: 4cbeece9c3aae97c6019d8fae511cb5b755874f7
+
+PODFILE CHECKSUM: b99d3112d22c58e4049e304088f94d1f7bf634af
+
+COCOAPODS: 1.5.3
